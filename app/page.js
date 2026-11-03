@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   // Ganti dengan nomor WhatsApp agen (gunakan format 62 tanpa angka 0)
-  const whatsappNumber = "6281234567890"; 
+  const whatsappNumber = "6281254489009"; 
   const whatsappMessage = encodeURIComponent("Halo Admin Obscura, saya tertarik untuk memesan Kartu NFC & QR Code Google Review.");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
