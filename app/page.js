@@ -25,12 +25,6 @@ export default function Home() {
             Platform pintar untuk mengarahkan ulasan pelanggan secara langsung ke Google Maps.
           </p>
         </div>
-
-        {/* Informasi Cara Penggunaan */}
-        <div className="w-full mt-4 p-4 rounded-xl bg-zinc-900/80 border border-zinc-800 text-xs text-zinc-400 font-[family-name:var(--font-geist-mono)]">
-          <p className="mb-1 text-zinc-300 font-medium">Penggunaan Kartu NFC / QR Code:</p>
-          <code className="text-blue-400">/tap/[ID_KARTU]</code>
-        </div>
       </main>
 
       <footer className="mt-12 text-xs text-zinc-600">
