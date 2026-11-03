@@ -16,9 +16,9 @@ export const metadata = {
   title: 'Google Review by OBSCURA',
   description: 'Tingkatkan rating dan reputasi bisnis Anda di Google Maps dengan kartu NFC & QR Code OBSCURA.',
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: './public/icon.png',
+    shortcut: './public/icon.png',
+    apple: './public/icon.png',
   },
 };
 
