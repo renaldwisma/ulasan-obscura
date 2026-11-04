@@ -20,11 +20,33 @@ export const metadata = {
     shortcut: './app/favicon.ico',
     apple: './app/favicon.ico',
   },
+  openGraph: {
+    title: 'Google Review by OBSCURA',
+    description: 'Tingkatkan rating dan reputasi bisnis Anda di Google Maps dengan kartu NFC & QR Code OBSCURA.',
+    url: 'https://ulasan-obscura.vercel.app',
+    siteName: 'OBSCURA',
+    images: [
+      {
+        url: './public/OG.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'OBSCURA Logo',
+      },
+    ],
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Google Review by OBSCURA',
+    description: 'Tingkatkan rating dan reputasi bisnis Anda di Google Maps dengan kartu NFC & QR Code OBSCURA.',
+    images: ['./public/OG.jpg'],
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
