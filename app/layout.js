@@ -27,7 +27,7 @@ export const metadata = {
     siteName: 'OBSCURA',
     images: [
       {
-        url: './public/OG.jpg',
+        url: 'https://ulasan-obscura.vercel.app/OG.jpg',
         width: 1200,
         height: 630,
         alt: 'OBSCURA Logo',
@@ -40,7 +40,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Google Review by OBSCURA',
     description: 'Tingkatkan rating dan reputasi bisnis Anda di Google Maps dengan kartu NFC & QR Code OBSCURA.',
-    images: ['./public/OG.jpg'],
+    images: ['https://ulasan-obscura.vercel.app/OG.jpg'],
   },
 };
 
